@@ -21,7 +21,7 @@ dronetest = {}
 -- I'll add them as I finish them
 local parts = 
 {
-	--"digilines_recipes",	-- digilines doesn't have crafting recipes, we need to add some
+	"digilines_recipes",	-- digilines doesn't have crafting recipes, we need to add some
 	--"terminal",			-- terminal block
 	--"uiblock",			-- custom formspec block
 	--"floppy",				-- floppy disk
