@@ -1,3 +1,4 @@
+-- lists table
 function _G.lst(t)
 	for k,v in pairs(t) do
 		print(tostring(k)..": "..tostring(v))
@@ -13,15 +14,13 @@ function dcall(...)
 end
 --]]
 
-
-dronetest = {}
-
+-- TODO: make this a modpack (isn't it lovely the way it is now?!?)
 
 -- none of these are finished yet (they were started in my (electrodude's) original computertest)
 -- I'll add them as I finish them
 local parts = 
 {
-	--"digilines_recipes",	-- digilines doesn't have crafting recipes, we need to add some
+	"digilines_recipes",	-- digilines doesn't have crafting recipes, we need to add some
 	--"terminal",			-- terminal block
 	--"uiblock",			-- custom formspec block
 	--"floppy",				-- floppy disk
